@@ -14,16 +14,17 @@ h1
 	text-align: center;
 
 }
-h3
-{
-	text-align: right;
-}
+
 .div1
 {
 	padding: 10px;
 	border: 2px solid black;
 	margin-top: 10px;
 	background-color: pink;
+}
+.div1>h3
+{
+	text-align: right;
 }
 .div2
 {
@@ -32,12 +33,20 @@ h3
 	margin-top: 10px;
 	background-color: pink;
 }
+.div2>h3
+{
+	text-align: right;
+}
 .div3
 {
 	padding: 10px;
 	border: 2px solid black;
 	margin-top: 10px;
 	background-color: pink;
+}
+.div3>h3
+{
+	text-align: right;
 }
 @media(min-width: 992px)
 {
